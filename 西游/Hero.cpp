@@ -168,12 +168,13 @@ bool Hero::if_success() const//判断是否通关成功
 	bool success=true;
 
 	for (int i = 1; i <= 9; i++)
+	{
 		if (barrier[i] == false)
 		{
 			success = false;
 			break;
 		}
-
+	}
 	return success;
 }
 
