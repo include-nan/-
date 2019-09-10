@@ -15,7 +15,7 @@ void Monster::start()//初始
 		max_health_points = 2000;
 		basic_attack_power = 400;
 		basic_defensive_power = 200;
-		lose_gold = 300;
+		lose_gold = 450;
 		lose_experience = 1000;
 		location = "黑风山黑风洞";
 	}

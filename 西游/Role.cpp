@@ -186,7 +186,7 @@ void Role::show() const//显示信息
 	cout << "当前生命值：" << health_points << endl;
 	cout << "当前攻击力：" << attack_power << endl;
 	cout << "当前防御力：" << defensive_power << endl;
-	cout << "位置：" << location << endl;
+	cout << "位      置：" << location << endl;
 }
 
 void Role::attack(Role& role0) {}//攻击

@@ -21,7 +21,7 @@ barrier{false,false,false,false,false,false,false,false,false,false}//构造函数（
 		start();
 }
 
-void Hero::start()            //初始
+void Hero::start()//初始
 {
 	if (name == "唐三藏")
 	{
@@ -147,7 +147,7 @@ void Hero::show() const//显示信息
 	cout << endl;
 }
 
-bool Hero::if_weapon() const      //判断有没有装备武器
+bool Hero::if_weapon() const//判断有没有装备武器
 {
 	if (what_weapon.get_name() != "无")
 		return true;
@@ -168,13 +168,12 @@ bool Hero::if_success() const//判断是否通关成功
 	bool success=true;
 
 	for (int i = 1; i <= 9; i++)
-	{
 		if (barrier[i] == false)
 		{
 			success = false;
 			break;
 		}
-	}
+
 	return success;
 }
 
